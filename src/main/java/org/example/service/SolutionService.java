@@ -1,7 +1,7 @@
 package org.example.service;
 
-import java.util.List;
+import org.example.model.FileData;
 
 public interface SolutionService {
-    String getSolution(String s, List<String> queries);
+    String getSolution(FileData data);
 }

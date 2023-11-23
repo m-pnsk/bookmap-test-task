@@ -1,20 +1,18 @@
 package org.example.model;
 
-import java.util.List;
-
 public class FileData {
     private String word;
-    private List<String> queries;
+    private int[][] queries;
 
     public String getWord() {
         return word;
     }
 
-    public List<String> getQueries() {
+    public int[][] getQueries() {
         return queries;
     }
 
-    public FileData(String word, List<String> queries) {
+    public FileData(String word, int[][] queries) {
         this.word = word;
         this.queries = queries;
     }
